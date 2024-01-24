@@ -602,7 +602,7 @@ PrefabInstance:
     - target: {fileID: 2322624063768331549, guid: 64baa3f735c6fe648bda02f9660afd58,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 932
+      value: 941
       objectReference: {fileID: 0}
     - target: {fileID: 3517858404548514026, guid: 64baa3f735c6fe648bda02f9660afd58,
         type: 3}
@@ -669,7 +669,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2766276505339965426, guid: 64baa3f735c6fe648bda02f9660afd58, type: 3}
-    - {fileID: 6652332186364629347, guid: 64baa3f735c6fe648bda02f9660afd58, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64baa3f735c6fe648bda02f9660afd58, type: 3}
