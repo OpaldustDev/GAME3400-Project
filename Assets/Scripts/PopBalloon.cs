@@ -14,11 +14,18 @@ public class PopBalloon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // change this so that if there is a collision, the particle plays
+        /*// change this so that if there is a collision, the particle plays
         // and the balloon gets destroyed
         if(Input.anyKeyDown) {
             popping.Play();
             Destroy(gameObject, 1);
-        }
+        }*/
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag != "dart") { return; }
+        popping.Play();
+        Destroy(gameObject, 0.1f);
     }
 }
