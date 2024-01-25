@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class player : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class player : MonoBehaviour
     void Update()
     {
         t += Time.deltaTime;
-        if (Input.GetMouseButton(0) && t > 0.5f)
+        if (Mouse.current.leftButton.isPressed && t > 0.5f)
         {
             GameObject temp = Instantiate(dart, this.transform.position, this.transform.rotation);
             temp.GetComponent<Rigidbody>().AddForce(cam.transform.forward * 14, ForceMode.Impulse);
