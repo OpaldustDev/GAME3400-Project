@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6322356356adc488662b789a289473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dart: {fileID: 0}
+  dart: {fileID: 3218704588720703358, guid: 8126ca0bce087bb4cba9444770894f44, type: 3}
 --- !u!1 &4648695744422804015
 GameObject:
   m_ObjectHideFlags: 0
