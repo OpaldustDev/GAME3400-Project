@@ -12,12 +12,12 @@ public class PlaytimeInputManager : MonoBehaviour
     private void Awake()
     {
         inputActions = new PlayerInput();
-        //inputActions.Player.Enable();
+        inputActions.Player.Enable();
     }
 
     private void OnDisable()
     {
-        //inputActions.Disable();
+        inputActions.Disable();
     }
 
     /// <summary>
@@ -31,7 +31,7 @@ public class PlaytimeInputManager : MonoBehaviour
         {
             return;
         }
-        //inputActions.Disable();
+        inputActions.Disable();
         actionMapChange?.Invoke(actionMap);
         actionMap.Enable();
         Debug.Log("Enable " + actionMap.name + " action map.");
@@ -43,7 +43,7 @@ public class PlaytimeInputManager : MonoBehaviour
     /// <param name="actionMaps">The action maps to enable</param>
     public static void EnableActionMapOnly(List<InputActionMap> actionMaps)
     {
-        //inputActions.Disable();
+        inputActions.Disable();
         foreach (var actionMap in actionMaps)
         {
             if (actionMap.enabled) { continue; }
@@ -73,10 +73,10 @@ public class PlaytimeInputManager : MonoBehaviour
     /// </summary>
     public static void DisableAllActionMaps()
     {
-        /*foreach (var actionMap in inputActions)
+        foreach (var actionMap in inputActions)
         {
             actionMap.Disable();
-        }*/
+        }
     }
 
     public static PlayerInput GetInputAsset()
