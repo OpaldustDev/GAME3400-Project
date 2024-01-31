@@ -1,0 +1,2 @@
+Hello Barney, the code in this folder was made by Taksin Mann, 
+developed for the game jam Manor of Jumpscares.
