@@ -1364,6 +1364,26 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2228267580855264772, guid: 083987663bf55594bb111a1ac44d548a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228267580855264772, guid: 083987663bf55594bb111a1ac44d548a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228267580855264772, guid: 083987663bf55594bb111a1ac44d548a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228267580855264772, guid: 083987663bf55594bb111a1ac44d548a,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2228267581111551199, guid: 083987663bf55594bb111a1ac44d548a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1569,6 +1589,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 790fcaf1-19ed-4f6f-b9de-c54f7952b95c
     m_ActionName: GameMenu/StartLevel[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7483388486156231528}
+        m_TargetAssemblyTypeName: PlayerInteract, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7ad80422-2239-475c-9fd5-c95e34c59c9c
+    m_ActionName: Player/Interact[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1589,6 +1625,19 @@ MonoBehaviour:
   invisibility: {fileID: 1372316865087101499}
   slider: {fileID: 619634102}
   lerpDuration: 5
+--- !u!114 &7483388486156231528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4778975775601339799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01311a18563b24349aee32567a3b620e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastDistance: 10
 --- !u!4 &6203354245694443078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 768019296240059860, guid: 083987663bf55594bb111a1ac44d548a,
