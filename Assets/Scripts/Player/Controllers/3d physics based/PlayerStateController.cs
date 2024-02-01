@@ -64,6 +64,7 @@ public class PlayerStateController : MonoBehaviour
         }
 
         TransitionToState(IdleState); // Start in the "Idle" state
+        LockCursor();
     }
 
     private void Start()
@@ -87,8 +88,8 @@ public class PlayerStateController : MonoBehaviour
 
     private void OnEnable()
     {
-        //PlaytimeInputManager.inputActions.Player.Move.performed += UpdateMovementVector;
-        //PlaytimeInputManager.inputActions.Player.Jump.performed += InvokeJump;
+        PlaytimeInputManager.inputActions.Player.Move.performed += UpdateMovementVector;
+        PlaytimeInputManager.inputActions.Player.Jump.performed += InvokeJump;
 
         //GameController.GameInitialize += FullInitialize;
         //GameController.GameStart += StartGame;
@@ -99,8 +100,8 @@ public class PlayerStateController : MonoBehaviour
 
     private void OnDisable()
     {
-        //PlaytimeInputManager.inputActions.Player.Move.performed -= UpdateMovementVector;
-        //PlaytimeInputManager.inputActions.Player.Jump.performed -= InvokeJump;
+        PlaytimeInputManager.inputActions.Player.Move.performed -= UpdateMovementVector;
+        PlaytimeInputManager.inputActions.Player.Jump.performed -= InvokeJump;
 
         //GameController.GameInitialize -= FullInitialize;
         //GameController.GameStart -= StartGame;
@@ -311,7 +312,7 @@ public class PlayerStateController : MonoBehaviour
         if (isGrounded)
         {
             coyoteTimeTimer = coyoteTime;
-            footstepManager.PlayFootstepSound();
+            footstepManager?.PlayFootstepSound();
         }
         else
         {
