@@ -70,3 +70,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Prefabs/tophat_n_stache.obj.meta
+Assets/Prefabs/tempdart.prefab.meta
+Assets/Prefabs/teddybear.obj.meta
+Assets/Prefabs/poly_guy.obj.meta
+Assets/Prefabs/ferris_wheel.obj.meta
