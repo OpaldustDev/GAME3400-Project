@@ -22,6 +22,7 @@ public class BossFollow : MonoBehaviour
         // make reaper look at player
         transform.LookAt(targetPlayer);
         float distance = Vector3.Distance(gameObject.transform.position, targetPlayer.position);
+        Debug.Log("Distance between boss and player is: " + distance);
         if(distance <= minDist) {
             // move the reaper towards the player every frame
             transform.position = Vector3.MoveTowards
