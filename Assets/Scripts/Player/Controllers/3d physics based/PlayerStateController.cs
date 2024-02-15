@@ -21,7 +21,7 @@ public class PlayerStateController : MonoBehaviour
     [SerializeField] private FootstepManager footstepManager;
     //[SerializeField] private PowerupManager powerupManager;
 
-    private float maxSpeed = 5f;
+    private float maxSpeed = 3f;
     private float acceleration = 5f;
     private float deceleration = 5f;
     private float jumpForce = 3f;
