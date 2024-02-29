@@ -4195,7 +4195,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27982
+  m_Name: pb_Mesh28788
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4359,7 +4359,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28154
+  m_Name: pb_Mesh28992
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6056,6 +6056,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78b0f30482bd03a4e9889bf50060ff68, type: 3}
+--- !u!1 &475890628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 806404314415980231, guid: aad638f26c658bc4e804536114b1d22e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1458715322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &475890633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475890628}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8267835500451653631, guid: 64b202fb997cc1e40b7d4ba4eade9fe7, type: 3}
 --- !u!43 &481746349
 Mesh:
   m_ObjectHideFlags: 0
@@ -6333,9 +6353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 878771474}
+  player: {fileID: 1329553468}
   voiceLine: {fileID: 8300000, guid: c51ba7879ffa42b4cab583ab10f50f40, type: 3}
-  distanceThreshold: 2
+  distanceThreshold: 4
 --- !u!4 &569245533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7605512390542064681, guid: e1bffdd1f5c081142b657da9c4441748,
@@ -6838,9 +6858,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 878771474}
+  player: {fileID: 1329553468}
   voiceLine: {fileID: 8300000, guid: 5f53fbfa4e0918442bd08097453410a5, type: 3}
-  distanceThreshold: 2
+  distanceThreshold: 3
 --- !u!1001 &831146059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14982,7 +15002,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28098
+  m_Name: pb_Mesh28924
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15140,6 +15160,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1329553468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8042802439532244584, guid: f115381245969114bba8483cd1a710cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 116625171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1345385199
 GameObject:
   m_ObjectHideFlags: 0
@@ -15731,9 +15757,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 878771474}
+  player: {fileID: 1329553468}
   voiceLine: {fileID: 8300000, guid: 4fda2c73026c98b4da39ca7de8083d39, type: 3}
-  distanceThreshold: 2
+  distanceThreshold: 6.5
 --- !u!4 &1470139891
 Transform:
   m_ObjectHideFlags: 0
@@ -54158,9 +54184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 878771474}
+  player: {fileID: 1329553468}
   voiceLine: {fileID: 8300000, guid: b1df37415cdcfb246843b9f6ec7d091e, type: 3}
-  distanceThreshold: 2
+  distanceThreshold: 4
 --- !u!43 &1846679023
 Mesh:
   m_ObjectHideFlags: 0
@@ -54343,9 +54369,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 878771474}
+  player: {fileID: 1329553468}
   voiceLine: {fileID: 8300000, guid: bcc943ff42d88ac45b69dccd2e777f14, type: 3}
-  distanceThreshold: 2
+  distanceThreshold: 3
 --- !u!4 &1901396662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4218873977395075287, guid: f115381245969114bba8483cd1a710cb,
@@ -54421,6 +54447,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d37f8bcff697f84e83f49c716816909, type: 3}
+--- !u!1 &2024351958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6927620815099027495, guid: aad638f26c658bc4e804536114b1d22e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1458715322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2024351963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024351958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6928810621141518740, guid: 64b202fb997cc1e40b7d4ba4eade9fe7, type: 3}
 --- !u!4 &2044573998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7605512390542064681, guid: e1bffdd1f5c081142b657da9c4441748,

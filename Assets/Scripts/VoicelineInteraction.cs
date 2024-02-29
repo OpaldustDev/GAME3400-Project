@@ -29,6 +29,7 @@ public class VoicelineInteraction : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(gameObject.transform.position, player.position);
+        Debug.Log("Distance between player and " + gameObject.name + " " + distance);
         if(!audioSource.isPlaying && Input.GetKey(KeyCode.E) && CheckProximity()) {
             audioSource.Play();
         }
