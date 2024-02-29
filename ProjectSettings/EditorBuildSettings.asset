@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/project 5/BeginningScreamScene.unity
-    guid: 1be5f7b173e0b4b4b94fb39d0fc139fe
-  - enabled: 1
-    path: Assets/Scenes/project 5/Proj5MainScene.unity
-    guid: 9ce9009c945dc3b4fa25d089ab2bc326
+    path: Assets/Scenes/project 6/Proj6MainScene.unity
+    guid: 909e3c81fc3d05944a9c13d9e3524784
   m_configObjects: {}
