@@ -5861,6 +5861,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 352e8f0bbe5ee3444b8f6bc473ef76dd, type: 3}
   distanceThreshold: 2
+--- !u!114 &402675129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402675127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 352e8f0bbe5ee3444b8f6bc473ef76dd, type: 3}
 --- !u!1 &407955780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5919,6 +5932,7 @@ GameObject:
   - component: {fileID: 418326120}
   - component: {fileID: 418326119}
   - component: {fileID: 418326122}
+  - component: {fileID: 418326123}
   m_Layer: 0
   m_Name: BATHROOMDOOR
   m_TagString: Untagged
@@ -6011,7 +6025,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418326117}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -6019,6 +6033,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 088f7f0173e6a4243b7e5ad2d629a5df, type: 3}
   distanceThreshold: 2
+--- !u!114 &418326123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418326117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 088f7f0173e6a4243b7e5ad2d629a5df, type: 3}
 --- !u!1001 &418943142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10694,6 +10721,7 @@ GameObject:
   - component: {fileID: 677148014}
   - component: {fileID: 677148013}
   - component: {fileID: 677148017}
+  - component: {fileID: 677148018}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -10787,7 +10815,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677148012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -10795,6 +10823,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: b0063768fea1bec4792e07d9c7dc4563, type: 3}
   distanceThreshold: 2
+--- !u!114 &677148018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677148012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: b0063768fea1bec4792e07d9c7dc4563, type: 3}
 --- !u!1001 &684012976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14750,7 +14791,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927888929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -14758,6 +14799,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 4608ef19d7357134ca2d3abda5d6e388, type: 3}
   distanceThreshold: 2
+--- !u!114 &927888931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927888929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 4608ef19d7357134ca2d3abda5d6e388, type: 3}
 --- !u!1001 &928944249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20227,6 +20281,7 @@ GameObject:
   - component: {fileID: 1393103776}
   - component: {fileID: 1393103775}
   - component: {fileID: 1393103779}
+  - component: {fileID: 1393103780}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -20320,7 +20375,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393103774}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -20328,6 +20383,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 18aae8cedbf926042a5820d6a9d0ce04, type: 3}
   distanceThreshold: 1
+--- !u!114 &1393103780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393103774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 18aae8cedbf926042a5820d6a9d0ce04, type: 3}
 --- !u!1 &1405408877
 GameObject:
   m_ObjectHideFlags: 0
@@ -24267,7 +24335,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716548380}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -24275,6 +24343,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 8d325591e31286d45bee09ec6b3dfa45, type: 3}
   distanceThreshold: 2
+--- !u!114 &1716548382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716548380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 8d325591e31286d45bee09ec6b3dfa45, type: 3}
 --- !u!1001 &1724203263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27477,7 +27558,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997694194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
   m_Name: 
@@ -27485,6 +27566,19 @@ MonoBehaviour:
   player: {fileID: 221630828}
   voiceLine: {fileID: 8300000, guid: 2e4e069322c4a3d4cab61802e331f398, type: 3}
   distanceThreshold: 2
+--- !u!114 &1997694196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997694194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 2e4e069322c4a3d4cab61802e331f398, type: 3}
 --- !u!1001 &2014998197
 PrefabInstance:
   m_ObjectHideFlags: 0
