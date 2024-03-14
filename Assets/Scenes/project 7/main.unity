@@ -3069,6 +3069,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217246294}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &221630828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8042802439532244584, guid: f115381245969114bba8483cd1a710cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2131838697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &227304664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5834,6 +5840,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 402675125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &402675127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061546121519658313, guid: 0ee3448c8025e1e42b8e6f355f097bb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 402675125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &402675128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402675127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 352e8f0bbe5ee3444b8f6bc473ef76dd, type: 3}
+  distanceThreshold: 2
 --- !u!1 &407955780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5891,8 +5918,9 @@ GameObject:
   - component: {fileID: 418326121}
   - component: {fileID: 418326120}
   - component: {fileID: 418326119}
+  - component: {fileID: 418326122}
   m_Layer: 0
-  m_Name: Door (2)
+  m_Name: BATHROOMDOOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5976,6 +6004,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418326117}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &418326122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418326117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 088f7f0173e6a4243b7e5ad2d629a5df, type: 3}
+  distanceThreshold: 2
 --- !u!1001 &418943142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10650,8 +10693,9 @@ GameObject:
   - component: {fileID: 677148015}
   - component: {fileID: 677148014}
   - component: {fileID: 677148013}
+  - component: {fileID: 677148017}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Deer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10729,13 +10773,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677148012}
   m_LocalRotation: {x: 0.40091828, y: -0.12959735, z: 0.6702051, w: 0.6109781}
-  m_LocalPosition: {x: 4.414, y: 1.04, z: -14.746}
+  m_LocalPosition: {x: 5.311, y: 0.988, z: -14.779}
   m_LocalScale: {x: 0.73483, y: 0.73483, z: 0.73483}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 41.576, y: 30.443, z: 107.089}
+--- !u!114 &677148017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677148012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: b0063768fea1bec4792e07d9c7dc4563, type: 3}
+  distanceThreshold: 2
 --- !u!1001 &684012976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14678,6 +14737,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 927888927}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &927888929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7893145887171253878, guid: 5cbbab54f1d09374bb27864650eece1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 927888927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &927888930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927888929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 4608ef19d7357134ca2d3abda5d6e388, type: 3}
+  distanceThreshold: 2
 --- !u!1001 &928944249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20146,6 +20226,7 @@ GameObject:
   - component: {fileID: 1393103777}
   - component: {fileID: 1393103776}
   - component: {fileID: 1393103775}
+  - component: {fileID: 1393103779}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -20232,6 +20313,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 94.422, y: 90, z: 90}
+--- !u!114 &1393103779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393103774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 18aae8cedbf926042a5820d6a9d0ce04, type: 3}
+  distanceThreshold: 1
 --- !u!1 &1405408877
 GameObject:
   m_ObjectHideFlags: 0
@@ -24093,17 +24189,17 @@ PrefabInstance:
     - target: {fileID: 8340760308864758875, guid: 439d5b3d2b3ceff4babedeb753bd6452,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.6091247
+      value: -6.285
       objectReference: {fileID: 0}
     - target: {fileID: 8340760308864758875, guid: 439d5b3d2b3ceff4babedeb753bd6452,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2779865
+      value: 3.268
       objectReference: {fileID: 0}
     - target: {fileID: 8340760308864758875, guid: 439d5b3d2b3ceff4babedeb753bd6452,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.38875866
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 8340760308864758875, guid: 439d5b3d2b3ceff4babedeb753bd6452,
         type: 3}
@@ -24158,6 +24254,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1716548378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716548380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8686183520013381345, guid: 439d5b3d2b3ceff4babedeb753bd6452,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716548378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1716548381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716548380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 8d325591e31286d45bee09ec6b3dfa45, type: 3}
+  distanceThreshold: 2
 --- !u!1001 &1724203263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27347,6 +27464,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78b0f30482bd03a4e9889bf50060ff68, type: 3}
+--- !u!1 &1997694194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7670389246118758893, guid: 78b0f30482bd03a4e9889bf50060ff68,
+    type: 3}
+  m_PrefabInstance: {fileID: 1997694193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997694195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997694194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57192a1dc0e899b48ae577be4866f865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 221630828}
+  voiceLine: {fileID: 8300000, guid: 2e4e069322c4a3d4cab61802e331f398, type: 3}
+  distanceThreshold: 2
 --- !u!1001 &2014998197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29147,7 +29285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103233988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.0181246, y: 2.2389865, z: -0.4197588}
+  m_LocalPosition: {x: -5.526, y: 2.2389865, z: -0.4197588}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
