@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 2.49
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0.2524475, g: 0.34386933, b: 0.5754717, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -22216,6 +22216,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1849409902}
+    - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 348
+      objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_RootOrder
@@ -31971,6 +31976,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 302832866}
+    - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 348
+      objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_RootOrder
@@ -35976,7 +35986,7 @@ PrefabInstance:
     - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 315
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
@@ -67024,7 +67034,7 @@ PrefabInstance:
     - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 315
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
@@ -70382,7 +70392,7 @@ PrefabInstance:
     - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 318
+      value: 357
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
@@ -83784,7 +83794,7 @@ PrefabInstance:
     - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 315
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
@@ -95225,7 +95235,7 @@ PrefabInstance:
     - target: {fileID: 1167654341507083279, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 312
+      value: 351
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
@@ -95245,7 +95255,7 @@ PrefabInstance:
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -77.04
+      value: -77.27
       objectReference: {fileID: 0}
     - target: {fileID: 6449346833326795317, guid: 8353b2fd00a09e945986d427ee875484,
         type: 3}
