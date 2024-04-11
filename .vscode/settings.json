@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "GAME3400-Project-1.sln"
+    "dotnet.defaultSolution": "GAME3400-Project.sln"
 }
