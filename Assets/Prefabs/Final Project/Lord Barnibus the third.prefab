@@ -3188,6 +3188,8 @@ GameObject:
   - component: {fileID: 1982238128229949267}
   - component: {fileID: 3698999348206741017}
   - component: {fileID: 175858561365082765}
+  - component: {fileID: 7171334357155743586}
+  - component: {fileID: 2103857706640921844}
   m_Layer: 0
   m_Name: Lord Barnibus the third
   m_TagString: Untagged
@@ -3300,6 +3302,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7171334357155743586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292590504762379368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: 80246bda3ede9114e843dfd36d2f07dd, type: 3}
+--- !u!65 &2103857706640921844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292590504762379368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.799999, y: 19.847841, z: 2.1391797}
+  m_Center: {x: 0, y: -0.21879773, z: 10.028458}
 --- !u!1 &7320267339638246615
 GameObject:
   m_ObjectHideFlags: 0

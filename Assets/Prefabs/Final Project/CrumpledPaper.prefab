@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8419185039931640149}
   - component: {fileID: 6629821416525705247}
   - component: {fileID: 7864517857045484683}
+  - component: {fileID: 575711972694605576}
+  - component: {fileID: 9075058258714754399}
   m_Layer: 0
   m_Name: CrumpledPaper
   m_TagString: Untagged
@@ -83,3 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &575711972694605576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747838681342450286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: a510ff02a769b7a41a1d076d638b1dbf, type: 3}
+--- !u!65 &9075058258714754399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747838681342450286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7263868, y: 0.81079066, z: 2.2482574}
+  m_Center: {x: -0.06910156, y: 0.40539533, z: -0.0073915264}

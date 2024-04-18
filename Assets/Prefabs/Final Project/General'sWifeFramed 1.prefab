@@ -3104,6 +3104,8 @@ GameObject:
   - component: {fileID: 1982238128229949267}
   - component: {fileID: 3698999348206741017}
   - component: {fileID: 175858561365082765}
+  - component: {fileID: 5096176934504532148}
+  - component: {fileID: 4495871506651432675}
   m_Layer: 0
   m_Name: General'sWifeFramed 1
   m_TagString: Untagged
@@ -3217,6 +3219,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5096176934504532148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292590504762379368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: bf985101979cf6046a5130285bf7afe4, type: 3}
+--- !u!65 &4495871506651432675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292590504762379368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.75301, y: 11.3799925, z: 4.278847}
+  m_Center: {x: 3.9764636, y: -0.000014630966, z: 11.098288}
 --- !u!1 &7320267339638246615
 GameObject:
   m_ObjectHideFlags: 0

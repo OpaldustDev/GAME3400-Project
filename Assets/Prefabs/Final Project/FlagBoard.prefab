@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 759606778053452770}
   - component: {fileID: 759606778053452771}
   - component: {fileID: 759606778053452768}
+  - component: {fileID: 6438120707386500151}
+  - component: {fileID: 2495347038346253791}
   m_Layer: 0
   m_Name: FlagBoard
   m_TagString: Untagged
@@ -84,6 +86,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6438120707386500151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759606778053452769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d480ea384312c84f923e39e4617d8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine: {fileID: 8300000, guid: c9ef3062ade46244eb04e04eda079786, type: 3}
+--- !u!65 &2495347038346253791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759606778053452769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1796884, y: 1.9999999, z: 4.035451}
+  m_Center: {x: -0.15031993, y: 2.3806114, z: 6.1713476}
 --- !u!1 &759606779497219951
 GameObject:
   m_ObjectHideFlags: 0
