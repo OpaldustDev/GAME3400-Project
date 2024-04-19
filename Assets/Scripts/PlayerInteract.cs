@@ -12,6 +12,7 @@ public class PlayerInteract : MonoBehaviour
     }
     public void Interact()
     {
+        Debug.Log("test");
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
